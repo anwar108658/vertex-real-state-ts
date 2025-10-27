@@ -4,9 +4,9 @@ import style from "../style/button.module.css"
 
  // for size classes
  const sizeClasses = {
-  small: "px-2 py-1 text-sm",
-  medium: "px-4 py-1.5 text-base",
-  large: "px-4 py-2 text-[1rem]" 
+  small: "px-2 py-1",
+  medium: "px-4 py-1.5",
+  large: "px-4 py-2 " 
 }
 
 // for color classes
@@ -32,7 +32,6 @@ type TsButtonProps = {
   className?: string;
   size?: keyof typeof sizeClasses;
   icon?: React.ReactNode;
-  fontSize?: string;
   colorVariant?: keyof typeof colorClasses;
 }
 
@@ -44,7 +43,6 @@ const TsButton: React.FC<TsButtonProps> = ({
   size = "medium",
   colorVariant = "primary",
   icon,
-  fontSize,
   className,
   children
 }) => {
@@ -53,7 +51,6 @@ const TsButton: React.FC<TsButtonProps> = ({
       onClick={onClick}
       className={`
         ${className}
-        ${fontSize} 
         ${sizeClasses[size]} 
         ${colorClasses[colorVariant]}
         ${style.tsButton}
