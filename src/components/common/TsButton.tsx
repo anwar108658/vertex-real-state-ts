@@ -11,15 +11,15 @@ import style from "../style/button.module.css"
 
 // for color classes
 const colorClasses = {
-    primary: "bg-blue-500 text-white",
-    secondary: "bg-gray-500 text-white",
-    success: "bg-green-500 text-white",
-    danger: "bg-red-500 text-white",
-    warning: "bg-yellow-500 text-white",
-    info: "bg-teal-500 text-white",
-    TBlack: "hover:bg-gray-100 !text-black",
-    gray: "hover:bg-gray-100 text-gray-900",
-    dark: "!bg-black text-white"
+  primary: "bg-blue-500 text-white",
+  secondary: "bg-gray-500 text-white",
+  success: "bg-green-500 text-white",
+  danger: "bg-red-500 text-white",
+  warning: "bg-yellow-500 text-white",
+  info: "bg-teal-500 text-white",
+  TBlack: "hover:bg-gray-100 !text-black",
+  gray: "hover:bg-gray-100 text-gray-900",
+  dark: "!bg-black text-white"
 }
 
 
