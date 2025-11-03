@@ -17,7 +17,8 @@ const colorClasses = {
     danger: "bg-red-500 text-white",
     warning: "bg-yellow-500 text-white",
     info: "bg-teal-500 text-white",
-    light: "hover:bg-gray-100 !text-black",
+    TBlack: "hover:bg-gray-100 !text-black",
+    gray: "hover:bg-gray-100 text-gray-900",
     dark: "!bg-black text-white"
 }
 
@@ -56,7 +57,6 @@ const TsButton: React.FC<TsButtonProps> = ({
         ${style.tsButton}
         flex 
         items-center
-        text-black
         gap-2
         rounded-md
         cursor-pointer
