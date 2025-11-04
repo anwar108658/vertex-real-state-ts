@@ -16,6 +16,9 @@ const Navbar = () => {
                     {item.title}
                   </Button>
                 ))}
+              <Button variant={"outline"} className="border-0">
+                <img src={logo} className="w-15" alt="" />
+              </Button>
               </div>
               <Button className="mx-4 text-[.8rem]" variant={"outline"} >
                 <CiIcons.CiMenuBurger strokeWidth={"1px"} size={18} />
